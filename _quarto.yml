@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "www/pwa-192.png"
+    - "www/pwa-512.png"
+
+website:
+  title: "pwaps"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+
+
+
